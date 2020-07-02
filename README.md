@@ -1,6 +1,6 @@
 # GetCobeeD
 
-## Addons used: ##
+## Addons used:
 
 - Font Awesome for icons
 - Sass
