@@ -1,0 +1,29 @@
+$xxs: 1px;
+$xs: $xxs * 2;
+$s: $xs * 2;
+$m: $s * 2;
+$l: $m * 2;
+$xl: $l * 2;
+$xxl: $xl * 2;
+$xxxl: $xxl * 2;
+
+$main-color: rgb(46, 239, 170);
+$black: rgb(0, 0, 0);
+$white: rgb(255, 255, 255);
+
+$main-color-shadow: rgba(46, 239, 170, 0.4);
+$black-shadow: rgba(0, 0, 0, 0.1);
+
+@mixin shadow($color) {
+  box-shadow: 0 $s $l $color;
+}
+
+%main-color-schema {
+  background-color: $white;
+  color: $main-color;
+}
+
+%main-color-schema-inverted {
+  background-color: $main-color;
+  color: $white;
+}

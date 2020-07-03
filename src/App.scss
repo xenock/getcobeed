@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 .App {
   text-align: center;
 }
@@ -10,8 +12,8 @@
 
 .App-header {
   min-height: 10vh;
-  background-color: #2eefaa;
-  padding: 10px;
+  background-color: $main-color;
+  padding: $l;
 }
 
 @keyframes App-logo-float {

@@ -1,0 +1,18 @@
+@import '../variables.scss';
+
+button {
+  width: $xxxl;
+  height: $xl;
+  @extend %main-color-schema;
+  border: none;
+  border-radius: $xl;
+  @include shadow($black-shadow);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin: $l;
+}
+
+button:hover {
+  @extend %main-color-schema-inverted;
+  @include shadow($main-color-shadow);
+}
